@@ -12,5 +12,7 @@
 @import '../blocks/presentation/presentation.css';
 @import '../blocks/presentation/__box/presentation__box.css';
 @import '../blocks/presentation/__frame/presentation__frame.css';
+@import '../blocks/buttons/buttons.css';
+@import '../blocks/buttons/__titles/buttons__titles.css';
 @import '../blocks/arrow-down/arrow-down.css';
 @import '../blocks/button/_main.css';

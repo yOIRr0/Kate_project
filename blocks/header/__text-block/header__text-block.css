@@ -4,3 +4,10 @@
     box-sizing: content-box;
     max-width: 40%;
 }
+
+@media (min-width: 200px) and (max-width: 900px) {
+    .header__text-block {
+        margin-right: 0;
+        margin-left: 7%;
+    }
+}

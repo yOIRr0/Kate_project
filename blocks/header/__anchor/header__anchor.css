@@ -10,6 +10,12 @@
     transition: .5s ease-out;
 }
 
+@media (min-width: 200px) and (max-width: 900px) {
+    .header__anchor {
+        left: 46vw;
+    }
+}
+
 @keyframes t-arrow-bottom {
     0%,to {
         -moz-transform: translateY(0);

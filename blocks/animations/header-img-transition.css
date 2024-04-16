@@ -13,3 +13,16 @@
         opacity: 1;
     }
 }
+
+@media (min-width: 200px) and (max-width: 900px) {
+    @keyframes header-img-transition {
+        0% {
+            transform: translateX(-10em);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: .3;
+        }
+    }
+}
