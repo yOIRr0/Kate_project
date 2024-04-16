@@ -1,0 +1,15 @@
+.header-img-transition {
+    animation: header-img-transition 1.5s ease 1s 1 forwards;
+    opacity: 0;
+}
+
+@keyframes header-img-transition {
+    0% {
+        transform: translateX(-10em);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

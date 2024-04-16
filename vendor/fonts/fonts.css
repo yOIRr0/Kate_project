@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "TildaSans-Regular";
+    font-style: normal;
+    font-weight: auto;
+    src: url(/vendor/fonts/TildaSans-Regular/TildaSans-Regular.woff2) format("woff2"), url(/vendor/fonts/TildaSans-Regular/TildaSans-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "TildaSans-Light";
+    font-style: normal;
+    font-weight: auto;
+    src: url(/vendor/fonts/TildaSans-Light/TildaSans-Light.woff2) format("woff2"), url(/vendor/fonts/TildaSans-Light/TildaSans-Light.woff) format("woff");
+}

@@ -1,0 +1,6 @@
+.header__text-block {
+    text-align: left;
+    margin-right: 7%;
+    box-sizing: content-box;
+    max-width: 40%;
+}

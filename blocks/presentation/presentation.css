@@ -1,0 +1,6 @@
+.presentation {
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100vw;
+    padding-right: 20px;
+}
