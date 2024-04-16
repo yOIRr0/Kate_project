@@ -1,8 +1,8 @@
-@import '../vendor/normalize.css';
+@import './vendor/normalize.css';
 @import './vendor/fonts/fonts.css)';
-@import url(/blocks/page/page.css);
-@import url(/blocks/main/main.css);
-@import url(/blocks/header/header.css);
+@import './blocks/page/page.css)';
+@import './blocks/main/main.css)';
+@import url(./blocks/header/header.css);
 @import url(/blocks/header/__title/header__title.css);
 @import url(/blocks/header/__span/header__span.css  );
 @import url(/blocks/header/__article/header__article.css);
