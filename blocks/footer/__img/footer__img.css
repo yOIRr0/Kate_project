@@ -1,0 +1,11 @@
+.footer__img {
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;
+}
+
+@media (min-width: 200px) and (max-width: 840px) {
+    .footer__img {
+        position: absolute;
+    }
+}

@@ -6,7 +6,6 @@
     background-image: url(https://i.postimg.cc/vHGdYYns/2024-04-14-19-02-39.png);
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -2;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -18,5 +17,6 @@
 @media (min-width: 200px) and (max-width: 900px) {
     .header {
         align-items: flex-start;
+        justify-content: flex-start;
     }
 }

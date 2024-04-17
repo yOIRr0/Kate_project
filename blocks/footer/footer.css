@@ -1,0 +1,19 @@
+.footer {
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,56,31,1) 84%);
+    border-top: 10px linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,56,31,1) 84%) solid;
+}
+
+@media (min-width: 200px) and (max-width: 840px) {
+    .footer {
+        flex-direction: column;
+        height: 30vh;
+        position: relative;
+        justify-content: flex-start;
+    }
+}

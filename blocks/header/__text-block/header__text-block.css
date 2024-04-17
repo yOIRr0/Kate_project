@@ -5,9 +5,16 @@
     max-width: 40%;
 }
 
-@media (min-width: 200px) and (max-width: 900px) {
+@media (min-width: 350px) and (max-width: 900px) {
     .header__text-block {
         margin-right: 0;
         margin-left: 7%;
+        margin-top: 7%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 350px) {
+    .header__text-block {
+        margin-top: 20%;
     }
 }

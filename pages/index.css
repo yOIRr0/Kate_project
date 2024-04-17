@@ -14,5 +14,9 @@
 @import '../blocks/presentation/__frame/presentation__frame.css';
 @import '../blocks/buttons/buttons.css';
 @import '../blocks/buttons/__titles/buttons__titles.css';
+@import '../blocks/buttons/__box/buttons__box.css';
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__img/footer__img.css';
+@import '../blocks/footer/__link/footer__link.css';
 @import '../blocks/arrow-down/arrow-down.css';
 @import '../blocks/button/_main.css';
