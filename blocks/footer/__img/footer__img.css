@@ -4,8 +4,12 @@
     align-self: flex-end;
 }
 
-@media (min-width: 200px) and (max-width: 840px) {
-    .footer__img {
-        position: absolute;
+@media (width < 768px) {
+    .footer__img:first-child {
+        grid-area: 3/1/4/2;
+    }
+    .footer__img:last-child {
+        justify-self: end;
+        grid-area: 3/2/4/3;
     }
 }

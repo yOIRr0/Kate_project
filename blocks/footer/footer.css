@@ -1,5 +1,6 @@
 .footer {
-    height: 13vh;
+    min-block-size: 30vh;
+    min-block-size: 30dvb;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,11 +10,9 @@
     border-top: 10px linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,56,31,1) 84%) solid;
 }
 
-@media (min-width: 200px) and (max-width: 840px) {
+@media (width < 768px) {
     .footer {
-        flex-direction: column;
-        height: 30vh;
-        position: relative;
-        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: auto auto;
     }
 }
